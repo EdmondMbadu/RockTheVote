@@ -14,6 +14,7 @@
 		E495945823A272030054A56B /* Rock_The_Vote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E495945623A272030054A56B /* Rock_The_Vote.xcdatamodeld */; };
 		E495945A23A272040054A56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E495945923A272040054A56B /* Assets.xcassets */; };
 		E495945D23A272040054A56B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E495945B23A272040054A56B /* LaunchScreen.storyboard */; };
+		E495946523A274730054A56B /* NewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E495946423A274730054A56B /* NewTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E495945923A272040054A56B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E495945C23A272040054A56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E495945E23A272040054A56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E495946423A274730054A56B /* NewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				E495944D23A272030054A56B /* AppDelegate.swift */,
 				E495944F23A272030054A56B /* SceneDelegate.swift */,
 				E495945123A272030054A56B /* ViewController.swift */,
+				E495946423A274730054A56B /* NewTableViewController.swift */,
 				E495945323A272030054A56B /* Main.storyboard */,
 				E495945923A272040054A56B /* Assets.xcassets */,
 				E495945B23A272040054A56B /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E495946523A274730054A56B /* NewTableViewController.swift in Sources */,
 				E495945223A272030054A56B /* ViewController.swift in Sources */,
 				E495944E23A272030054A56B /* AppDelegate.swift in Sources */,
 				E495945823A272030054A56B /* Rock_The_Vote.xcdatamodeld in Sources */,
@@ -298,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.edmond.Rock-The-Vote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.edmond.Rock-The-Vote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
